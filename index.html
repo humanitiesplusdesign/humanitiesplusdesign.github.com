@@ -1,35 +1,134 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Athanasius by athanasius-project</title>
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<!-- Meta, title, CSS, favicons, etc. -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Athanasius</h1>
-        <p>Visual Tools for Digital Humanities.</p>
+		<title>Humanities + Design Lab | Tools</title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
+		<style>
 
-        <p class="view"><a href="https://github.com/athanasius-project">View My GitHub Profile</a></p>
+			.row {
+				margin-top: 30px;
+			}
 
-      </header>
-      <section>
-        <p>This is a humanities tool development project of the Humanities + Design program of the Stanford Humanities Center.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+			.container {
+				margin-bottom: 50px;
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+
+		<div class="container">
+
+			<h1>Humanities + Design <small>Tools</small></h1>
+			<p><a href="http://cesta.stanford.edu/">Center for Spatial and Textual Analysis (CESTA)</a><br/>
+			<a href="http://www.stanford.edu">Stanford University</a></p>		
+			
+			<!-- Tool -->
+			<div class="row">
+				
+				<!-- Breve-->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/breve.png"></img>
+					<h3>Breve <small>(beta)</small></h3>
+					<p>Breve is an interactive visualization of a data table. There are two flavors: 1. Breve-view lets others explore your data set without editing &em;  useful for peer review of data-drven projects; 2. Breve-edit is a tool we plan to incorporate into <a href="http://palladio.designhumanities.org/">Palladio</a>. It identifies mismatched values, maps data types by value, and allows record-level editing of a data table. Try it out at <a href="http://breve.designhumanities.org/">breve.designhumanities.org</a></p>
+				</div>
+
+				<!-- Palladio -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/palladio.png"></img>
+					<h3>Palladio <small>1.1</small></h3>
+					<p>A visualization platform currently under development (funded by NEH) with an emphasis on data refining and linking combines a map view, node-Link graph view, and multiple filters. Visit <a href="http://palladio.designhumanities.org/">palladio.designhumanities.org</a> to learn more about the project.</p>
+				</div>
+
+				<!-- Shuffle -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/shuffle.png"></img>
+					<h3>Shuffle</h3>
+					<p>A multi-dimensional facet-filter tool based on <a href="http://moritz.stefaner.eu/projects/elastic-lists/">Elastic Lists</a>, combined with a timeline and gallery display of results.</p>
+					<p>
+						<span>Demo:</span>
+						<strong><a href="http://shuffle.designhumanities.org/">Voltaire’s Social Network</a></strong><br>
+						<small>Data by Electronic Enlightenment Project and Dan Edelstein (French and Italian)</small>
+					</p>
+				</div>
+
+				<!-- Knot -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/knot.png"></img>
+					<h3>Knot</h3>
+					<p>A network exploration tool that brings into play both explicit connections (through correspondence, for example) and possible networks based on collocation and affiliation.</p>
+					<p>
+						<span>Demo:</span>
+						<strong><a href="http://knot-dev.herokuapp.com/investigate.html">17th and 18th Century Correspondence Networks</a></strong><br>
+						<small>Data by Electronic Enlightenment Project</small>
+					</p>
+				</div>
+
+				<!-- Ink -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/ink.png"></img>
+					<h3>Ink</h3>
+					<p>A combination of map, histogram, and flow (alluvial diagram) view highlights the relations between different dimensions of data.</p>
+					<p>Demo: <strong><a href="http://ink.designhumanities.org/voltaire">Voltaire’s Correspondence</a></strong><br/>
+					<small>Data by Electronic Enlightenment Project and Dan Edelstein (French and Italian)</small>
+					</p>
+				</div>
+
+			</div>
+			<div class="row">
+
+				<!-- Inquiry -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/inquiry.png"></img>
+					<h3>Inquiry</h3>
+					<p>A tool for generating layered maps based on complex queries.</p>
+					<p>Demo: <strong><a href="http://inquiry.designhumanities.org">Benjamin Franklin’s Correspondence</a></strong><br/>
+					<small>Data by Packard Humanities Institute and Caroline Winterer (History)</small>
+					</p>
+				</div>
+
+				<!-- Fineo -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/fineo.png"></img>
+					<h3>Fineo</h3>
+					<p>Inspired by the visual model of Sankey diagrams, Fineo allows users to explore how data is distributed between different dimensions. Created by <a href="http://www.densitydesign.org">DensityDesign Research Lab</a>, Politecnico di Milano.</p>
+					<p>Demo: <strong><a href="http://fineo.densitydesign.org/mrofl/new/individuals/">Athanasius Kircher’s Correspondence Network</a></strong><br/>
+					<small>Data by Stanford University Library and Paula Findlen (History)</small>
+					</p>
+				</div>
+
+				<!-- Priestley -->
+				<div class="col-lg-3 col-md-3">
+					<img class="img-responsive" src="imgs/priestley.png"></img>
+					<h3>Priestley Timechart</h3>
+					<p>Inspired by Joseph Priestley’s  A Chart of Biography (1763) this chart displays the length of stay of visitors by city on a brushable timeline allowing scholars to see who was in the same city at the same time.</p>
+					<p>
+						<span>Demo:</span>
+						<strong><a href="http://priestley.designhumanities.org/">British and Irish Travelers on the Grand Tour in Italy 1701-1800</a></strong><br>
+						<small>Data by Paul Mellon Centre and Giovanna Ceserani (Classics)</small>
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+	</body>
+
 </html>
