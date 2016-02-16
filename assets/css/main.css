@@ -1,0 +1,254 @@
+/* Ockkam styles */
+
+
+body {background-color: #fff;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 14px;
+	}
+	
+.content {
+	padding: 10px 40px;
+}
+	
+footer {
+	padding: 30px 0 20px 0;
+}
+	
+.navbar-default {background-color: #fff; border:none;}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: rgba(142,19,10,1);
+background-color: transparent;
+border-bottom: solid 1px rgba(142,19,10,1);
+}
+
+a:hover {
+color: rgba(142,19,10,.5);
+text-decoration:none;
+}
+
+hr.brand {
+  height: 3px;
+  border: 0;
+  background-color: #c3c3c3;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #fff));
+  background-image: -webkit-linear-gradient(left, #fff, #fff, #fff);
+  background-image: -moz-linear-gradient(left, #fff, #fff, #fff);
+  background-image: -ms-linear-gradient(left, #fff, #fff, #fff);
+  background-image: -o-linear-gradient(left, #fff, #fff, #fff);
+}
+hr.brand::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #c3c3c3));
+  background-image: -webkit-linear-gradient(left, #fff, rgba(142,19,10,1), #fff);
+  background-image: -moz-linear-gradient(left, #fff, rgba(142,19,10,1), #fff);
+  background-image: -ms-linear-gradient(left, #fff, rgba(142,19,10,1), #fff);
+  background-image: -o-linear-gradient(left, #fff, rgba(142,19,10,1), #fff);
+}
+
+.wrap {
+  margin-left:0;
+  margin-right:0;
+}
+
+.vcenter {
+    display: inline-block;
+    float: none;
+}
+
+/* for Stanford brand */
+.navbar-header img {
+  border-right-color:#2E2D29;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  margin-right:10px;
+  padding:0 10px 2px 0;
+  height:20px;
+  width:90px;
+}
+.drop {
+    vertical-align: text-bottom;
+	font-size:18px;
+}
+
+/* Twitter */
+.twitter-icon-svg {
+    fill: rgba(142,19,10,.6);
+	width: 18px;
+	height: 18px;
+}
+.twitter-icon-svg:hover {
+    fill: rgba(142,19,10,1);
+	width: 18px;
+	height: 18px;
+}
+
+/* Sidebar */
+
+.panel-default {
+	border:none;
+}
+
+.panel-default .panel-heading {
+	background-color: transparent;
+	border-color:transparent;
+	font-weight:700;
+}
+
+/* list of people */
+.masonry *, .masonry  *:before,  .masonry *:after {box-sizing:  border-box !important;}
+
+
+.masonry .row {
+ -moz-column-width: 25em;
+ -webkit-column-width: 25em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap:1em; 
+  
+}
+
+.masonry .row > .col-md-4 {
+ display: inline-block;
+ padding:  .33rem;
+ width:  100%; 
+ float:none;
+}
+
+.masonry .well { 
+ position:relative;
+ display: block;
+}
+
+.well {
+  -webkit-box-shadow:none;
+  background-color:transparent;
+  border:none;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  box-shadow:none;
+  margin-bottom:20px;
+  min-height:20px;
+  padding:19px;
+}
+
+.masonry .well p {
+	padding-left:20px;
+}
+
+.widewrapper {
+  width:100%;
+  }
+
+.widewrapper > img {
+  width:100%;
+}
+
+header.navbar.navbar-default {
+	margin-bottom: none;
+}
+
+#footer {
+	height: 400px;
+	padding-bottom: 20px;
+	}
+
+.row {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.row:first-child, .row.row-dense {
+    margin-top: 0;
+}
+
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+
+video#bgvid {
+width: auto; height: auto; z-index: -100;
+position: absolute;
+top: 0px;
+right:-300;
+opacity: 0.4;
+filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.vimeo-iframe {
+max-width: 100%;
+}
+
+.video-container  {
+width: 90%;
+}
+
+header.navbar { 
+background-color: transparent;
+
+}
+
+.palladio-well {
+
+background-color: rgba(196,79,146, .8);
+color: #fff;
+}
+
+.palladio-logo {
+	font-family: 'Roboto Slab', serif;
+	padding: 0;
+	color: #4EBDE5;
+	font-size: 128px;
+}
+
+article a:link {
+    color: rgba(224,19,42,.9);
+}
+
+article a:visited {
+    color: rgba(224, 19,42, .9);
+}
+
+article a:hover {
+    color: rgba(224, 19,42, .7);
+}
+
+article a:active {
+    color: rgba(224, 19,42, .7);
+
+}
+
+article {
+	margin: 20px 0 20px 0;
+}
+.btn-primary {
+color: #ffffff;
+background-color: rgba(207, 18, 46, .9);
+border-color: transparent;
+}
+
+
+.post-group {
+padding: 30px 0;
+}
+
+.media:first-child, .media, .media .media{
+	margin-top: 15px;
+
+}
+
+img.desaturate { -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}

@@ -1,0 +1,45 @@
+{
+	"nodes": [{
+		"name": "Myriel",
+		"group": 1,
+		"imagen": "/assets/people/dan.jpg",
+		"url":  "https://www.google.com"
+	}, {
+		"name": "Napoleon",
+		"group": 1,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "Mlle.Baptistine",
+		"group": 1,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "Mme.Magloire",
+		"group": 1,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "CountessdeLo",
+		"group": 2,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "Geborand",
+		"group": 0,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "Champtercier",
+		"group": 1,
+		"imagen":"/assets/people/dan.jpg"
+	}, {
+		"name": "Mme.Hucheloup",
+		"group": 8,
+		"imagen":"/assets/people/dan.jpg"
+	}],
+	"links": [{
+		"source": 1,
+		"target": 0,
+		"value": 1
+	}, {
+		"source": 2,
+		"target": 0,
+		"value": 8
+	}]
+}
